@@ -41,3 +41,6 @@ During my work on this project I assumed that anyone, who wants to run it, will 
 4. We can experiment with ROIs and their extraction as well, i.e. include more space around head or we can center ROIs in some other way. Also we can use better alignment near the corners of image (instead of constant padding that I saw in some train images)
 
 5. And finally, given more data we can run wide range of experiments regarding training procedure, model architecture and so on.
+
+### Evaluation
+You can run `python evaluate.py -i /path/to/dir/with/images` in order to perform evaluation.
