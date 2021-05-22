@@ -42,5 +42,7 @@ During my work on this project I assumed that anyone, who wants to run it, will 
 
 5. And finally, given more data we can run wide range of experiments regarding training procedure, model architecture and so on.
 
+6. It might be more practical to use finer grading of hair length instead of just long/short. It's not quite clear what we can do with the information that "hair is long with probability 0.56" :)
+
 ### Evaluation
 You can run `python evaluate.py -i /path/to/dir/with/images` in order to perform evaluation.
